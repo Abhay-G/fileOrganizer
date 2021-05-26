@@ -5,23 +5,17 @@ Visualize all the directories and files inside them in a tree structure.
 
 ### Installation
 
-[`npm i fileorganizer --save`](https://www.npmjs.com/package/fileorganizerary)
+`npm i fileorganizer --save` or clone it from here after forking.
 
 Then ...
 
-```
-import setfs from 'fileorganizer'
-setfs();
+You will get the whole folder and inside the package.json you can change the command you want, it is set to
 
+``` setfs
 ```
+as default.
 
 Or
-
-```
-const setfs = require('fileorganizer');
-setfs();
-
-```
 
 ### How to Use
 
