@@ -11,11 +11,12 @@ Then ...
 
 You will get the whole folder and inside the package.json you can change the command you want, it is set to
 
-``` setfs
+```
+setfs
+
 ```
 as default.
 
-Or
 
 ### How to Use
 
