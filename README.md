@@ -25,6 +25,20 @@ setfs();
 
 ### How to Use
 
-In your console type setfs help to get all the information about the commands.
-To get tree structure type: setfs tree
-To organize directrory type: setfs organize
+In your console type the following command to get all the information about the commands.
+
+```console
+foo@bar:~$setfs help
+```
+
+To get tree structure type:
+
+```console
+foo@bar:~$setfs tree
+```
+
+To organize directrory type:
+
+```console
+foo@bar:~$setfs organize
+```

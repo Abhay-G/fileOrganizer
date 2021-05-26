@@ -1,23 +1,29 @@
 {
-    "name": "fileSystemOrganizer",
+    "name": "fileorganizerary",
     "version": "1.0.0",
-    "description": "",
+    "description": "Organize your files properly",
     "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Abhay-G/fileSystemOrganizer.git"
+        "url": "git+https://github.com/Abhay-G/fileOrganizer.git"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "nodejs",
+        "javascript",
+        "files",
+        "fs",
+        "organize"
+    ],
+    "author": "Abhay Gupta",
     "license": "ISC",
     "bin": {
         "setfs": "main.js"
     },
     "bugs": {
-        "url": "https://github.com/Abhay-G/fileSystemOrganizer/issues"
+        "url": "https://github.com/Abhay-G/fileOrganizer/issues"
     },
-    "homepage": "https://github.com/Abhay-G/fileSystemOrganizer#readme"
+    "homepage": "https://github.com/Abhay-G/fileOrganizer#readme"
 }
