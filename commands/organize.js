@@ -6,20 +6,18 @@ function organizefn(dirPath) {
     //1. input-> directory path given
     let desPath;
     if (dirPath == undefined) {
-        desPath = process.cwd();
-        return;
-    } else {
-        let exist = fs.existsSync(dirPath);
-        if (exist) {
-            //2. create -> organized_files-> directory
-            desPath = path.join(dirPath, 'organized_files');
-            if (fs.existsSync(desPath) === false) {
-                fs.mkdirSync(desPath);
-            }
-        } else {
-            console.log('Kindly enter a correct path');
-            return;
+        dirPath = process.cwd();
+    }
+    let exist = fs.existsSync(dirPath);
+    if (exist) {
+        //2. create -> organized_files-> directory
+        desPath = path.join(dirPath, 'organized_files');
+        if (fs.existsSync(desPath) === false) {
+            fs.mkdirSync(desPath);
         }
+    } else {
+        console.log('Kindly enter a correct path');
+        return;
     }
     organizeHelper(dirPath, desPath);
 }
