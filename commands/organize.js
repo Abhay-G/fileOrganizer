@@ -55,6 +55,6 @@ function sendFiles(src, des, category) {
     let destFilePath = path.join(categoryPath, fileName);
     fs.copyFileSync(src, destFilePath);
     fs.unlinkSync(src);
-    console.log(fileName, 'copied to', category);
+    console.log(fileName, 'transfered to', category);
 }
 module.exports = organizefn;
