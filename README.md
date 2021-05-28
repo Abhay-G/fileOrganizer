@@ -14,35 +14,20 @@ You will get the entire folder of this project inside the node modules after ins
 ```
 #!/usr/bin/env node
 ```
-<<<<<<< HEAD
 
 Inside the package.json you can change the command you want, it is set to
 
-=======
-
-Inside the package.json you can change the command you want, it is set to
-
->>>>>>> 37ab7422f3d24b215b776205b9cd68f5a8221ed6
 ```
 setfs
-
 ```
-<<<<<<< HEAD
 
 as default.
 
 and after changing the command, type
 
-=======
-as default.
-
-and after changing the command, type 
-
->>>>>>> 37ab7422f3d24b215b776205b9cd68f5a8221ed6
 ```console
 npm init
 ```
-in your console.
 
 in your console.
 
