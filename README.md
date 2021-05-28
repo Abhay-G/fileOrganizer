@@ -26,7 +26,7 @@ as default.
 and after changing the command, type
 
 ```console
-npm init
+npm link
 ```
 
 in your console.
